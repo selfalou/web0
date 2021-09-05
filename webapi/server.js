@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.json([
     {username:'Salah'},
     {username:'Hadi'},
-    {username:'Amal'},
+    {username:'OK'},
     {username:'Rim'}
   ])
 })
