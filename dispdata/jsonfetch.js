@@ -1,5 +1,5 @@
-let urllocal='http://localhost:3000/';
-fetch(urllocal)
+let urlremote='https://webapidemo.herokuapp.com/';
+fetch(urlremote)
     .then(response => response.json())
     .then(json => {
         for (let index = 0; index < json.length; index++) {
